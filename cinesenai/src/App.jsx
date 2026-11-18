@@ -1,14 +1,15 @@
-import { Rodape } from "./components/Rodape";
+import { Navbar } from "./components/Navbar";
 
-function App() {
+function App () {
+
   return (
-    <>
-    <h1>cineSenai</h1>
-
-    <Rodape />  
-    <Rodape />
-    </>
-  )
+ <>
+  <Navbar/>
+<div className="container">
+  <h1>Cátalogo</h1>
+</div>
+</>
+  );
 }
 
 export default App;
